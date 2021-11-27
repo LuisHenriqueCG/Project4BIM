@@ -1,0 +1,13 @@
+package entities;
+
+import javax.swing.JOptionPane;
+
+public class SavingAccount extends BakingAccount {
+	private final double CREDIT_LIMIT = 1000.00;
+
+	@Override
+	@Override
+	public void showData() {
+		JOptionPane.showMessageDialog(null, CREDIT_LIMIT);
+	}
+}

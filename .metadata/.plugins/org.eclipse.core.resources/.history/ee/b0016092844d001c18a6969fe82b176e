@@ -1,0 +1,12 @@
+package runner;
+
+import entities.BankingAccount;
+import entities.CurrentAccount;
+import entities.SavingAccount;
+
+public class Main {
+	public static void main(String[] args) {
+		BankingAccount savingAccount = new SavingAccount();
+		BankingAccount currentAccount = new CurrentAccount();
+	}
+}

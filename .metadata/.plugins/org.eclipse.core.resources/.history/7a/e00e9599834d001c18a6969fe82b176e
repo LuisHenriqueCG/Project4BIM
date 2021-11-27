@@ -1,0 +1,7 @@
+package entities;
+
+public class Report extends BakingAccount{
+	public void createReport(Object e) {
+		showData(e);
+	}	
+}

@@ -1,0 +1,27 @@
+package entities;
+
+import javax.swing.JOptionPane;
+
+import interfaces.print;
+
+public abstract class BankingAccount implements print {
+	int accountNumber;
+	double balance;
+	
+	public double withDraw(double value) {
+		balance -= value;
+		return balance - value;
+	}
+	
+	public double deposit(double value) {
+		balance += value;
+		return balance + value;
+	}
+
+	public void showData(Object e) {
+		JOptionPane.showMessageDialog(null, 
+				"Account Number: " + accountNumber + "\n" +
+				"Balance: " + balance
+		);
+	}
+}

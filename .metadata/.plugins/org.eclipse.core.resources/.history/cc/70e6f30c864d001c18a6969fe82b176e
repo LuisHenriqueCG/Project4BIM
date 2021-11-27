@@ -1,0 +1,14 @@
+package entities;
+
+import java.util.ArrayList;
+
+import interfaces.print;
+
+public class Bank implements print {
+	ArrayList <BankingAccount> accountsList = new ArrayList();
+
+	@Override
+	public void showData(Object e) {
+		
+	}
+}

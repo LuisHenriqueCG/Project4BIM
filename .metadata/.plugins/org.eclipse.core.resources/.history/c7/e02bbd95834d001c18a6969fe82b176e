@@ -1,0 +1,17 @@
+package entities;
+
+import javax.swing.JOptionPane;
+
+public class Report extends BakingAccount{
+	public void createReport(Object e) {
+		showData(e);
+	}
+
+	@Override
+	public void showData(Object e) {
+		JOptionPane.showMessageDialog(null, 
+				"Account Number: " + accountNumber + "\n" +
+				"Balance: " + e.balance);
+	}
+	
+}

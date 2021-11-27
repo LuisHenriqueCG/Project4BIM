@@ -1,0 +1,25 @@
+package entities;
+
+import javax.swing.JOptionPane;
+
+import interfaces.print;
+
+public abstract class BakingAccount implements print {
+	int accountNumber;
+	double balance;
+	
+	public void withDraw(double value) {
+		
+	}
+	
+	public void deposit(double value) {
+		
+	}
+
+	public void showData(Object e) {
+		JOptionPane.showMessageDialog(null, 
+				"Account Number: " + accountNumber + "\n" +
+				"Balance: " + balance
+		);
+	}
+}
