@@ -1,3 +1,10 @@
+Grupo: 
+Luis Henrique de Camargo Gonçalves
+Ra: 00210470
+
+João Anthônio Schuh
+Ra: 00209631
+
 1) O que é e para que serve o throw no Java? 
 R: A palavra-chave throw serve para lançar uma exceção (mais precisamente um Throwable , mas em 99,9% dos casos uma exceção). 
 A execução da função atual vai parar (as instruções após o throw não serão executadas), e o controle será passado para o primeiro bloco catch na pilha de chamadas. 
