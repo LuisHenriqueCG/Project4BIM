@@ -1,0 +1,12 @@
+1) O que é e para que serve o throw no Java? 
+R: A palavra-chave throw serve para lançar uma exceção (mais precisamente um Throwable , mas em 99,9% dos casos uma exceção). 
+A execução da função atual vai parar (as instruções após o throw não serão executadas), e o controle será passado para o primeiro bloco catch na pilha de chamadas. 
+Se nenhum bloco catch existir entre as funções "chamadoras", o programa vai terminar.
+
+2) Em que situações deve-se usar o finally? 
+R: Você deve utilizar finally para finalizar/liberar recursos que você possa ter usado em um try , mesmo que um exceção seja 
+lançada, o código no finally será executado. Por exemplo: Supondo você abre um arquivo no try , mas ocorre exceção. 
+Em finally é o local correto para você fechar o arquivo.
+
+3) Quando devemos usar o throws? Qual a sua finalidade? 
+R: A palavra-chave throws serve para declarar que um método pode lançar exceções de um determinado tipo.
